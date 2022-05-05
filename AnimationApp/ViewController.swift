@@ -14,7 +14,7 @@ class ViewController: UIViewController {
 
     var items: [Item] {
         return [
-            ("Spinner", UIViewController.self),
+            ("Spinner", SpinnerViewController.self),
             ("More", UIViewController.self),
             ("More", UIViewController.self),
             ("More", UIViewController.self)

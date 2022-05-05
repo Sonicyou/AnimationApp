@@ -16,6 +16,8 @@
 		0CD5B97C2803F962004D2EC6 /* AnimationAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD5B97B2803F962004D2EC6 /* AnimationAppTests.swift */; };
 		0CD5B9862803F962004D2EC6 /* AnimationAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD5B9852803F962004D2EC6 /* AnimationAppUITests.swift */; };
 		0CD5B9882803F962004D2EC6 /* AnimationAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD5B9872803F962004D2EC6 /* AnimationAppUITestsLaunchTests.swift */; };
+		0CD5B9962805504A004D2EC6 /* CustomSpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD5B9952805504A004D2EC6 /* CustomSpinnerView.swift */; };
+		0CD5B9982805505A004D2EC6 /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD5B9972805505A004D2EC6 /* SpinnerViewController.swift */; };
 		316BFABEFE150E8B9DED1EEC /* Pods_AnimationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A1AB0B5EC78630B490FD0F /* Pods_AnimationApp.framework */; };
 		EDF6002B22A71282DD889EFF /* Pods_AnimationAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88803620C5AD3DF6F22CDDD5 /* Pods_AnimationAppTests.framework */; };
 		FCE652B6C4C5BB2F60AD76A1 /* Pods_AnimationApp_AnimationAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4716FCF368C4BF3C9023F99A /* Pods_AnimationApp_AnimationAppUITests.framework */; };
@@ -52,6 +54,8 @@
 		0CD5B9812803F962004D2EC6 /* AnimationAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD5B9852803F962004D2EC6 /* AnimationAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationAppUITests.swift; sourceTree = "<group>"; };
 		0CD5B9872803F962004D2EC6 /* AnimationAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0CD5B9952805504A004D2EC6 /* CustomSpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSpinnerView.swift; sourceTree = "<group>"; };
+		0CD5B9972805505A004D2EC6 /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
 		22A1AB0B5EC78630B490FD0F /* Pods_AnimationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4716FCF368C4BF3C9023F99A /* Pods_AnimationApp_AnimationAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimationApp_AnimationAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F198DAD6CC2CF2076504212 /* Pods-AnimationAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationAppTests.debug.xcconfig"; path = "Target Support Files/Pods-AnimationAppTests/Pods-AnimationAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,7 +105,6 @@
 				4F198DAD6CC2CF2076504212 /* Pods-AnimationAppTests.debug.xcconfig */,
 				54E2920081B5CFEC3AA503A7 /* Pods-AnimationAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -133,6 +136,7 @@
 				0CD5B9642803F960004D2EC6 /* AppDelegate.swift */,
 				0CD5B9662803F960004D2EC6 /* SceneDelegate.swift */,
 				0CD5B9682803F960004D2EC6 /* ViewController.swift */,
+				0CD5B9942805501C004D2EC6 /* Spinner */,
 				0CD5B96A2803F960004D2EC6 /* Main.storyboard */,
 				0CD5B96D2803F961004D2EC6 /* Assets.xcassets */,
 				0CD5B96F2803F961004D2EC6 /* LaunchScreen.storyboard */,
@@ -156,6 +160,15 @@
 				0CD5B9872803F962004D2EC6 /* AnimationAppUITestsLaunchTests.swift */,
 			);
 			path = AnimationAppUITests;
+			sourceTree = "<group>";
+		};
+		0CD5B9942805501C004D2EC6 /* Spinner */ = {
+			isa = PBXGroup;
+			children = (
+				0CD5B9952805504A004D2EC6 /* CustomSpinnerView.swift */,
+				0CD5B9972805505A004D2EC6 /* SpinnerViewController.swift */,
+			);
+			path = Spinner;
 			sourceTree = "<group>";
 		};
 		74C53543B4D5A0820CB47C52 /* Frameworks */ = {
@@ -410,6 +423,8 @@
 				0CD5B9692803F960004D2EC6 /* ViewController.swift in Sources */,
 				0CD5B9652803F960004D2EC6 /* AppDelegate.swift in Sources */,
 				0CD5B9672803F960004D2EC6 /* SceneDelegate.swift in Sources */,
+				0CD5B9962805504A004D2EC6 /* CustomSpinnerView.swift in Sources */,
+				0CD5B9982805505A004D2EC6 /* SpinnerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
