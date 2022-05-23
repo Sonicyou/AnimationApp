@@ -7,6 +7,7 @@ target 'AnimationApp' do
 
   # Pods for AnimationApp
   pod 'SnapKit', '~> 5.0.0'
+  pod 'SkeletonView'
 
   target 'AnimationAppTests' do
     inherit! :search_paths

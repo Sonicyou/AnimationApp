@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C6EE916283B63CA00E79DE7 /* SkeletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6EE915283B63CA00E79DE7 /* SkeletonViewController.swift */; };
+		0C6EE918283B69C700E79DE7 /* SkeletonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6EE917283B69C700E79DE7 /* SkeletonTableViewCell.swift */; };
 		0CD5B9652803F960004D2EC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD5B9642803F960004D2EC6 /* AppDelegate.swift */; };
 		0CD5B9672803F960004D2EC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD5B9662803F960004D2EC6 /* SceneDelegate.swift */; };
 		0CD5B9692803F960004D2EC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD5B9682803F960004D2EC6 /* ViewController.swift */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C6EE915283B63CA00E79DE7 /* SkeletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonViewController.swift; sourceTree = "<group>"; };
+		0C6EE917283B69C700E79DE7 /* SkeletonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonTableViewCell.swift; sourceTree = "<group>"; };
 		0CD5B9612803F960004D2EC6 /* AnimationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD5B9642803F960004D2EC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CD5B9662803F960004D2EC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +112,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		0C6EE914283B638D00E79DE7 /* Skeleton */ = {
+			isa = PBXGroup;
+			children = (
+				0C6EE915283B63CA00E79DE7 /* SkeletonViewController.swift */,
+				0C6EE917283B69C700E79DE7 /* SkeletonTableViewCell.swift */,
+			);
+			path = Skeleton;
+			sourceTree = "<group>";
+		};
 		0CD5B9582803F960004D2EC6 = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +149,7 @@
 				0CD5B9642803F960004D2EC6 /* AppDelegate.swift */,
 				0CD5B9662803F960004D2EC6 /* SceneDelegate.swift */,
 				0CD5B9682803F960004D2EC6 /* ViewController.swift */,
+				0C6EE914283B638D00E79DE7 /* Skeleton */,
 				0CD5B9942805501C004D2EC6 /* Spinner */,
 				0CD5B96A2803F960004D2EC6 /* Main.storyboard */,
 				0CD5B96D2803F961004D2EC6 /* Assets.xcassets */,
@@ -424,7 +438,9 @@
 				0CD5B9652803F960004D2EC6 /* AppDelegate.swift in Sources */,
 				0CD5B9672803F960004D2EC6 /* SceneDelegate.swift in Sources */,
 				0CD5B9962805504A004D2EC6 /* CustomSpinnerView.swift in Sources */,
+				0C6EE918283B69C700E79DE7 /* SkeletonTableViewCell.swift in Sources */,
 				0CD5B9982805505A004D2EC6 /* SpinnerViewController.swift in Sources */,
+				0C6EE916283B63CA00E79DE7 /* SkeletonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
